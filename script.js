@@ -8,6 +8,11 @@ for (let i = 0; i < 16; i++) {
        const column = document.createElement('div'); //creates a div called columns in memory
        column.classList.add('column'); //adds aclass to the new columns div
        row.appendChild(column); //appends column into row.
+    
+       //the mouseover
+       column.addEventListener('mouseover', () => {
+        column.style.backgroundColor = 'black';
+       });
     }
     board.appendChild(row); //appends one row, and 16 columns
 }
