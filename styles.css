@@ -1,0 +1,19 @@
+.board {
+    width: 600px;
+    height: 600px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+    
+}
+
+.column {
+    flex: 1;
+    background-color: blue;
+    margin: 1px;
+}
